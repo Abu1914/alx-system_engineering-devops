@@ -1,2 +1,2 @@
 #!/bin/bash
-su -[Abu1914 [betty] ]
+sudo su -[Abu1914 [betty] ]
