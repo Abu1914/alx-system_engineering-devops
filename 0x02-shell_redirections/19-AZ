@@ -1,2 +1,2 @@
 #!/bin/bash
-tr "A" "Z" | "c" "e"
+$ cat input.txt | tr 'Ac' 'Ze' > output.txt
