@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
-# A script that displays Best School 10 times using the until loop
+# display special string 10 times using until loop
 
-c="0"
-until [ $c = 10 ]
-do
+a=0
+until [ $a == 10 ]; do
 	echo "Best School"
-	c=$((c + 1))
+	((a++))
 done
