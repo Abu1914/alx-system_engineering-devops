@@ -1,0 +1,7 @@
+# SSH configuration file to connect without a password
+# private_key file is ~/.ssh/school
+
+Host 100.26.155.240
+    HostName 100.26.155.240
+    identityFile ~/.ssh/school
+    passwordAuthentication no
