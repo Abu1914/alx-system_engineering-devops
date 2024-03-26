@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # nginx will listen on port 80
 # when querying Nginx at its root using curl localhost
 # it should return "Hello World!"
